@@ -1,0 +1,37 @@
+2024-06-17 10:48:00,073 - ERROR - Error in start_training_from_pretrained_api: Error(s) in loading state_dict for STUNet:
+	size mismatch for conv_blocks_context.0.0.conv1.weight: copying a param with shape torch.Size([32, 1, 3, 3, 3]) from checkpoint, the shape in current model is torch.Size([32, 4, 3, 3, 3]).
+	size mismatch for conv_blocks_context.0.0.conv3.weight: copying a param with shape torch.Size([32, 1, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([32, 4, 1, 1, 1]).
+	size mismatch for seg_outputs.0.weight: copying a param with shape torch.Size([105, 512, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([4, 512, 1, 1, 1]).
+	size mismatch for seg_outputs.0.bias: copying a param with shape torch.Size([105]) from checkpoint, the shape in current model is torch.Size([4]).
+	size mismatch for seg_outputs.1.weight: copying a param with shape torch.Size([105, 256, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([4, 256, 1, 1, 1]).
+	size mismatch for seg_outputs.1.bias: copying a param with shape torch.Size([105]) from checkpoint, the shape in current model is torch.Size([4]).
+	size mismatch for seg_outputs.2.weight: copying a param with shape torch.Size([105, 128, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([4, 128, 1, 1, 1]).
+	size mismatch for seg_outputs.2.bias: copying a param with shape torch.Size([105]) from checkpoint, the shape in current model is torch.Size([4]).
+	size mismatch for seg_outputs.3.weight: copying a param with shape torch.Size([105, 64, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([4, 64, 1, 1, 1]).
+	size mismatch for seg_outputs.3.bias: copying a param with shape torch.Size([105]) from checkpoint, the shape in current model is torch.Size([4]).
+	size mismatch for seg_outputs.4.weight: copying a param with shape torch.Size([105, 32, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([4, 32, 1, 1, 1]).
+	size mismatch for seg_outputs.4.bias: copying a param with shape torch.Size([105]) from checkpoint, the shape in current model is torch.Size([4]).
+Traceback (most recent call last):
+  File "C:\Users\suzuk\3D Objects\codes\STU-Net-main\routes\train_routes.py", line 104, in start_training_from_pretrained_api
+    run_training(dataset_name_or_id, configuration, fold, trainer_class_name, plans_identifier,
+  File "C:\Users\suzuk\3D Objects\codes\STU-Net-main\nnUNet-2.2\nnunetv2\run\run_training.py", line 197, in run_training
+    maybe_load_checkpoint(nnunet_trainer, continue_training, only_run_validation, pretrained_weights)
+  File "C:\Users\suzuk\3D Objects\codes\STU-Net-main\nnUNet-2.2\nnunetv2\run\run_training.py", line 94, in maybe_load_checkpoint
+    load_pretrained_weights(nnunet_trainer.network, pretrained_weights_file, verbose=True)
+  File "C:\Users\suzuk\3D Objects\codes\STU-Net-main\nnUNet-2.2\nnunetv2\run\load_pretrained_weights.py", line 64, in load_pretrained_weights
+    mod.load_state_dict(model_dict)
+  File "C:\Users\suzuk\anaconda3\envs\wzh\lib\site-packages\torch\nn\modules\module.py", line 2152, in load_state_dict
+    raise RuntimeError('Error(s) in loading state_dict for {}:\n\t{}'.format(
+RuntimeError: Error(s) in loading state_dict for STUNet:
+	size mismatch for conv_blocks_context.0.0.conv1.weight: copying a param with shape torch.Size([32, 1, 3, 3, 3]) from checkpoint, the shape in current model is torch.Size([32, 4, 3, 3, 3]).
+	size mismatch for conv_blocks_context.0.0.conv3.weight: copying a param with shape torch.Size([32, 1, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([32, 4, 1, 1, 1]).
+	size mismatch for seg_outputs.0.weight: copying a param with shape torch.Size([105, 512, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([4, 512, 1, 1, 1]).
+	size mismatch for seg_outputs.0.bias: copying a param with shape torch.Size([105]) from checkpoint, the shape in current model is torch.Size([4]).
+	size mismatch for seg_outputs.1.weight: copying a param with shape torch.Size([105, 256, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([4, 256, 1, 1, 1]).
+	size mismatch for seg_outputs.1.bias: copying a param with shape torch.Size([105]) from checkpoint, the shape in current model is torch.Size([4]).
+	size mismatch for seg_outputs.2.weight: copying a param with shape torch.Size([105, 128, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([4, 128, 1, 1, 1]).
+	size mismatch for seg_outputs.2.bias: copying a param with shape torch.Size([105]) from checkpoint, the shape in current model is torch.Size([4]).
+	size mismatch for seg_outputs.3.weight: copying a param with shape torch.Size([105, 64, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([4, 64, 1, 1, 1]).
+	size mismatch for seg_outputs.3.bias: copying a param with shape torch.Size([105]) from checkpoint, the shape in current model is torch.Size([4]).
+	size mismatch for seg_outputs.4.weight: copying a param with shape torch.Size([105, 32, 1, 1, 1]) from checkpoint, the shape in current model is torch.Size([4, 32, 1, 1, 1]).
+	size mismatch for seg_outputs.4.bias: copying a param with shape torch.Size([105]) from checkpoint, the shape in current model is torch.Size([4]).

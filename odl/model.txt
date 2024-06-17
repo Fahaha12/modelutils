@@ -1,0 +1,20 @@
+数据集的类型: <class 'dict'>
+数据集的长度: 7
+数据集包含的键:
+epoch
+state_dict
+optimizer_state_dict
+lr_scheduler_state_dict
+plot_stuff
+best_stuff
+amp_grad_scaler
+数据集值的类型:
+<class 'int'>
+<class 'collections.OrderedDict'>
+<class 'dict'>
+<class 'NoneType'>
+<class 'tuple'>
+<class 'tuple'>
+<class 'dict'>
+数据集的第一个键值对:
+epoch: 4000

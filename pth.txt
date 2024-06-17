@@ -1,0 +1,468 @@
+键: network_weights
+值的类型: <class 'collections.OrderedDict'>
+值的结构:
+  键: conv_blocks_context.0.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32, 4, 3, 3, 3])
+  键: conv_blocks_context.0.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_context.0.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_context.0.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_context.0.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32, 32, 3, 3, 3])
+  键: conv_blocks_context.0.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_context.0.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_context.0.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_context.0.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32, 4, 1, 1, 1])
+  键: conv_blocks_context.0.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_context.1.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64, 32, 3, 3, 3])
+  键: conv_blocks_context.1.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_context.1.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_context.1.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_context.1.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64, 64, 3, 3, 3])
+  键: conv_blocks_context.1.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_context.1.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_context.1.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_context.1.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64, 32, 1, 1, 1])
+  键: conv_blocks_context.1.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_context.2.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128, 64, 3, 3, 3])
+  键: conv_blocks_context.2.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_context.2.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_context.2.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_context.2.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128, 128, 3, 3, 3])
+  键: conv_blocks_context.2.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_context.2.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_context.2.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_context.2.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128, 64, 1, 1, 1])
+  键: conv_blocks_context.2.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_context.3.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256, 128, 3, 3, 3])
+  键: conv_blocks_context.3.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_context.3.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_context.3.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_context.3.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256, 256, 3, 3, 3])
+  键: conv_blocks_context.3.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_context.3.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_context.3.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_context.3.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256, 128, 1, 1, 1])
+  键: conv_blocks_context.3.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_context.4.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512, 256, 3, 3, 3])
+  键: conv_blocks_context.4.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.4.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.4.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.4.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512, 512, 3, 3, 3])
+  键: conv_blocks_context.4.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.4.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.4.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.4.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512, 256, 1, 1, 1])
+  键: conv_blocks_context.4.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.5.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512, 512, 3, 3, 3])
+  键: conv_blocks_context.5.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.5.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.5.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.5.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512, 512, 3, 3, 3])
+  键: conv_blocks_context.5.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.5.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.5.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_context.5.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512, 512, 1, 1, 1])
+  键: conv_blocks_context.5.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: upsample_layers.0.conv.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512, 512, 1, 1, 1])
+  键: upsample_layers.0.conv.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: upsample_layers.1.conv.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256, 512, 1, 1, 1])
+  键: upsample_layers.1.conv.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: upsample_layers.2.conv.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128, 256, 1, 1, 1])
+  键: upsample_layers.2.conv.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: upsample_layers.3.conv.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64, 128, 1, 1, 1])
+  键: upsample_layers.3.conv.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: upsample_layers.4.conv.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32, 64, 1, 1, 1])
+  键: upsample_layers.4.conv.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_localization.0.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512, 1024, 3, 3, 3])
+  键: conv_blocks_localization.0.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_localization.0.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_localization.0.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_localization.0.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512, 512, 3, 3, 3])
+  键: conv_blocks_localization.0.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_localization.0.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_localization.0.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_localization.0.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512, 1024, 1, 1, 1])
+  键: conv_blocks_localization.0.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([512])
+  键: conv_blocks_localization.1.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256, 512, 3, 3, 3])
+  键: conv_blocks_localization.1.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_localization.1.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_localization.1.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_localization.1.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256, 256, 3, 3, 3])
+  键: conv_blocks_localization.1.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_localization.1.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_localization.1.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_localization.1.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256, 512, 1, 1, 1])
+  键: conv_blocks_localization.1.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([256])
+  键: conv_blocks_localization.2.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128, 256, 3, 3, 3])
+  键: conv_blocks_localization.2.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_localization.2.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_localization.2.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_localization.2.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128, 128, 3, 3, 3])
+  键: conv_blocks_localization.2.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_localization.2.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_localization.2.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_localization.2.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128, 256, 1, 1, 1])
+  键: conv_blocks_localization.2.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([128])
+  键: conv_blocks_localization.3.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64, 128, 3, 3, 3])
+  键: conv_blocks_localization.3.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_localization.3.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_localization.3.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_localization.3.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64, 64, 3, 3, 3])
+  键: conv_blocks_localization.3.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_localization.3.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_localization.3.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_localization.3.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64, 128, 1, 1, 1])
+  键: conv_blocks_localization.3.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([64])
+  键: conv_blocks_localization.4.0.conv1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32, 64, 3, 3, 3])
+  键: conv_blocks_localization.4.0.conv1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_localization.4.0.norm1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_localization.4.0.norm1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_localization.4.0.conv2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32, 32, 3, 3, 3])
+  键: conv_blocks_localization.4.0.conv2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_localization.4.0.norm2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_localization.4.0.norm2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: conv_blocks_localization.4.0.conv3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32, 64, 1, 1, 1])
+  键: conv_blocks_localization.4.0.conv3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([32])
+  键: seg_outputs.0.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([4, 512, 1, 1, 1])
+  键: seg_outputs.0.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([4])
+  键: seg_outputs.1.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([4, 256, 1, 1, 1])
+  键: seg_outputs.1.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([4])
+  键: seg_outputs.2.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([4, 128, 1, 1, 1])
+  键: seg_outputs.2.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([4])
+  键: seg_outputs.3.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([4, 64, 1, 1, 1])
+  键: seg_outputs.3.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([4])
+  键: seg_outputs.4.weight
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([4, 32, 1, 1, 1])
+  键: seg_outputs.4.bias
+  值的类型: <class 'torch.Tensor'>
+  值的形状: torch.Size([4])
+
+键: optimizer_state
+值的类型: <class 'dict'>
+值的结构:
+  键: state
+  值的类型: <class 'dict'>
+  键: param_groups
+  值的类型: <class 'list'>
+
+键: grad_scaler_state
+值的类型: <class 'dict'>
+值的结构:
+  键: scale
+  值的类型: <class 'float'>
+  键: growth_factor
+  值的类型: <class 'float'>
+  键: backoff_factor
+  值的类型: <class 'float'>
+  键: growth_interval
+  值的类型: <class 'int'>
+  键: _growth_tracker
+  值的类型: <class 'int'>
+
+键: logging
+值的类型: <class 'dict'>
+值的结构:
+  键: mean_fg_dice
+  值的类型: <class 'list'>
+  键: ema_fg_dice
+  值的类型: <class 'list'>
+  键: dice_per_class_or_region
+  值的类型: <class 'list'>
+  键: train_losses
+  值的类型: <class 'list'>
+  键: val_losses
+  值的类型: <class 'list'>
+  键: lrs
+  值的类型: <class 'list'>
+  键: epoch_start_timestamps
+  值的类型: <class 'list'>
+  键: epoch_end_timestamps
+  值的类型: <class 'list'>
+
+键: _best_ema
+值的类型: <class 'numpy.float64'>
+值: 0.7113046541216426
+
+键: current_epoch
+值的类型: <class 'int'>
+值: 8
+
+键: init_args
+值的类型: <class 'dict'>
+值的结构:
+  键: plans
+  值的类型: <class 'dict'>
+  键: configuration
+  值的类型: <class 'str'>
+  键: fold
+  值的类型: <class 'int'>
+  键: dataset_json
+  值的类型: <class 'dict'>
+  键: unpack_dataset
+  值的类型: <class 'bool'>
+  键: device
+  值的类型: <class 'torch.device'>
+
+键: trainer_name
+值的类型: <class 'str'>
+值: STUNetTrainer_base
+
+键: inference_allowed_mirroring_axes
+值的类型: <class 'tuple'>
+值: (0, 1, 2)
+
